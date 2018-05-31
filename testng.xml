@@ -1,0 +1,48 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Ebay Tests" verbose="3" parallel="tests">
+
+    <!--<listeners>-->
+        <!--<listener class-name="Listeners.RetryListener"/>-->
+    <!--</listeners>-->
+
+<!--
+    <test name="Login Test in Chrome">
+        <parameter name="browser" value="chrome"/>
+        <parameter name="validUser" value="priya.somani@rediffmail.com"/>
+        <parameter name="validPass" value="Priya@123"/>
+        <groups>
+            <run>
+                <include name="loginGroup"/>
+            </run>
+        </groups>
+
+        <classes>
+            <class name="SmokeTests.SignInTest"/>
+        </classes>
+    </test>
+-->
+
+    <!--<test name="Search Test in Chrome">-->
+        <!--<parameter name="browser" value="chrome"/>-->
+        <!--<parameter name="validUser" value="priya.somani@rediffmail.com"/>-->
+        <!--<parameter name="validPass" value="Priya@123"/>-->
+        <!--<classes>-->
+            <!--<class name="SmokeTests.SearchTest"/>-->
+        <!--</classes>-->
+    <!--</test>-->
+
+    <test name="Timing Alert Practice">
+        <classes>
+            <class name="SmokeTests.TimingAlertPractice"/>
+        </classes>
+    </test>
+<!--
+    <test name="Login Test in FireFox">
+        <parameter name="browser" value="FireFox"/>
+        <classes>
+            <class name="SmokeTests.SignInTest"/>
+        </classes>
+    </test>
+-->
+</suite>
